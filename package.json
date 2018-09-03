@@ -33,6 +33,7 @@
     "@babel/preset-env": "^7.0.0",
     "@babel/preset-react": "^7.0.0",
     "@storybook/addon-info": "^3.4.10",
+    "@storybook/addon-knobs": "^3.4.10",
     "@storybook/cli": "^4.0.0-alpha.20",
     "@storybook/react": "^4.0.0-alpha.20",
     "babel-core": "^6.26.3",
