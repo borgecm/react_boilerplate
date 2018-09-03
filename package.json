@@ -11,7 +11,8 @@
   },
   "scripts": {
     "create": "webpack",
-    "start": "webpack-dev-server --open"
+    "start": "webpack-dev-server --open",
+    "storybook": "start-storybook -p 9001 -c .storybook"
   },
   "repository": {
     "type": "git",
@@ -31,6 +32,10 @@
     "@babel/core": "^7.0.0",
     "@babel/preset-env": "^7.0.0",
     "@babel/preset-react": "^7.0.0",
+    "@storybook/addon-info": "^3.4.10",
+    "@storybook/cli": "^4.0.0-alpha.20",
+    "@storybook/react": "^4.0.0-alpha.20",
+    "babel-core": "^6.26.3",
     "babel-loader": "^8.0.0",
     "css-loader": "^1.0.0",
     "html-webpack-plugin": "^3.2.0",
