@@ -1,17 +1,13 @@
-var React = require ('react')
-var ReactDOM = require ('react-dom')
-require('./index.css')
+import React from 'react'
+import ReactDOM from 'react-dom'
+import { BrowserRouter as Router } from 'react-router-dom'
 
-class App extends React.Component {
-    render(){
-        return(
-            <div>Hello Worlddddddddd!</div>
-        )
-    }
-}
+import App from './app'
 
 
 ReactDOM.render(
-    <App/>,
+    <Router>
+        <App/>
+    </Router>,
     document.getElementById('app')
 )
