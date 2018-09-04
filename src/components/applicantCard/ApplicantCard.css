@@ -1,0 +1,18 @@
+
+.card{
+    width: 362px;
+    position: relative;   
+}
+
+.options{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+.dropdown__button{
+    background-color: white;
+    border: none;
+    width: 42px;
+    height: 25px;      
+}

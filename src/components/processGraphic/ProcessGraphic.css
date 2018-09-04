@@ -1,0 +1,36 @@
+.container{
+    display: flex;
+    align-items: center;
+}
+.line{
+    border-top: 1px solid black;
+    height: 0px;
+    margin: 0;
+   }
+.circle{
+    border-radius: 50%;
+    border: 1px solid black;
+    flex-shrink: 0;
+    cursor: pointer;
+}
+
+/*Not scheduled*/
+.ns{ 
+    background-color: #AAAAAA;
+    
+}
+
+/*Scheduled*/
+.s{
+    background-color: #0133CB;
+}
+
+/*Failed*/
+.f{
+    background-color:#D9534F;
+}
+
+/*Approved*/
+.a{
+    background-color: #519839 ;
+}
